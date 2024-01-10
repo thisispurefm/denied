@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denied</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Denied</h1>
+    <p>Ha! Lol! Get rekt!</p>
+    <p>Absolutely no chance you're getting to <span id="url"></span>.</p>
+    <p>Yeah, seriously. No chance.</p>
+    <div class="danger-box">
+        <p>I hate to break this to you, but the PureFM Technical Director and President have been notified.</p>
+        <!-- yeah, they haven't. ain't no one got time to implement that. -->
+        <p>Yeah, you did a oopsie. lol</p>
+    </div>
+
+    <script>
+        let docUrl = window.location.href;
+        console.log(docUrl);
+        let urlElem = document.getElementById('url');
+        urlElem.innerHTML = docUrl;
+    </script>
+</body>
+</html>

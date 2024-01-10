@@ -1,0 +1,21 @@
+body{
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
+h1{
+    color: red;
+}
+
+.danger-box{
+    border: 1px dashed white;
+    background-color: red;
+    width: 50%;
+}
+
+#url{
+    font-family: 'Courier New', Courier, monospace;
+}
